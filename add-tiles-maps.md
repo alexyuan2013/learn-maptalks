@@ -137,7 +137,7 @@ https://maponline0.bdimg.com/tile/?qt=vtile&x=23&y=5&z=7&styles=sl&showtext=0&v=
 - 地图：`https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}`
 - 卫星：`https://wprd0{s}.is.autonavi.com/appmaptile?x={x}&y={y}&z={z}&lang=zh_cn&size=1&scl=1&style=8&ltype=11`
 
-> 高德官网的地图和百度一样，采用了新的渲染方式，隐藏了瓦片的地址，不过可以通过IE等老版本的浏览器，依然可以瓦片的地址。
+> 高德官网的地图和百度一样，采用了新的渲染方式，隐藏了瓦片的地址，不过可以通过IE等老版本的浏览器，依然可以获取瓦片的地址。
 
 ![Img](./images/add-tiles-maps.md/img-20221130112048.png)
 
@@ -190,6 +190,7 @@ https://maponline0.bdimg.com/tile/?qt=vtile&x=23&y=5&z=7&styles=sl&showtext=0&v=
   </body>
 </html>
 ```
+
 ![Img](./images/add-tiles-maps.md/img-20221129110224.png)
 
 ### `urlTemplate`说明
@@ -242,7 +243,8 @@ https://maponline0.bdimg.com/tile/?qt=vtile&x=23&y=5&z=7&styles=sl&showtext=0&v=
     </script>
   </body>
 </html>
-````
+```
+
 ![Img](./images/add-tiles-maps.md/img-20221130150914.png)
 
 
