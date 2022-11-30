@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>瓦片图层 - 高德</title>
+  <style type="text/css">
+    html,body{margin:0px;height:100%;width:100%}
+    .container{width:100%;height:100%}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/maptalks/dist/maptalks.css">
+  <script type="text/javascript" src="https://unpkg.com/maptalks/dist/maptalks.min.js"></script>
+  <body>
+    <div id="map" class="container"></div>
+
+    <script>
+      var map = new maptalks.Map('map', {
+        center: [105.08052356963802, 36.04231948670001],
+        zoom: 5,
+        minZoom:1,
+        maxZoom:19,
+        baseLayer: new maptalks.TileLayer('base', {
+          //'urlTemplate' : 'https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', // 地图
+		  'urlTemplate' : 'https://webst0{s}.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}', // 卫星
+          'subdomains':[1, 2, 3, 4],
+          'attribution' :  '&copy; <a target="_blank" href="https://amap.com/">gaode</a>'
+        })
+      });
+
+    </script>
+  </body>
+</html>
