@@ -209,6 +209,7 @@ https://maponline0.bdimg.com/tile/?qt=vtile&x=23&y=5&z=7&styles=sl&showtext=0&v=
 天地图的瓦片地图服务有配额限制，实际项目不建议使用。
 
 ### 示例代码
+```html
 <!DOCTYPE html>
 <html>
   <meta charset="UTF-8">
@@ -251,6 +252,7 @@ https://maponline0.bdimg.com/tile/?qt=vtile&x=23&y=5&z=7&styles=sl&showtext=0&v=
 ### `URLTemplate`说明
 
 天地图[官网](http://lbs.tianditu.gov.cn/server/MapService.html)有其瓦片地图的详细说明，如下图所示。其中经纬度投影需要配置坐标系统和投影参数，球面墨卡托投影为使用默认参数，无需特殊配置。
+
 ![Img](./images/add-tiles-maps.md/img-20221130145951.png)
 
 > 需要注意的是天地图有tk参数，开发和上线时需要注意官方的说明，如下图所示。
